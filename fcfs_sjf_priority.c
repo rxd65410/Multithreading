@@ -161,7 +161,7 @@ bool validInteger(char *temp){
 bool validCommand(char str[100]) {
         char *token;
         token = strtok(str," ");
-        int count=0;
+        int count=0;//
 	while(token != NULL) {
 		if(count==0 && strcmp(token,"tcr")==0) {
                 	token = strtok(NULL," ");
